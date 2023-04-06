@@ -16,7 +16,7 @@ const Job = ({ data }) => {
       </Col>
       <Col xs={3}>
         <Button
-          variant="primary"
+          variant="success"
           onClick={() => {
             dispatch({ type: "ADD_TO_FAVOURITES", payload: data });
           }}

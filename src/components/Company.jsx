@@ -16,7 +16,7 @@ const Company = ({ company, index }) => {
             dispatch({ type: "DELETE", payload: index });
           }}
         >
-          Ellimina dai Preferiti
+          Elimina dai Preferiti
         </Button>
       </Col>
     </Row>
