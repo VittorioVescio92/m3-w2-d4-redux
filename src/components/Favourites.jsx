@@ -17,7 +17,7 @@ const Favourites = () => {
       ) : (
         <Row className="mt-3">
           <Col>
-            <Alert variant="warning" className="text-center">
+            <Alert variant="danger" className="text-center">
               Nessuna azienda tra i preferiti!
             </Alert>
           </Col>
