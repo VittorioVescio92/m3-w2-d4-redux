@@ -1,7 +1,6 @@
 import { Alert, Col, Container, Row } from "react-bootstrap";
 import Company from "./Company";
 import { useSelector } from "react-redux";
-import { useNavigate } from "react-router-dom";
 
 const Favourites = () => {
   const preferiti = useSelector(state => state.favourites.content);
